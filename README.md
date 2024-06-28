@@ -3,16 +3,16 @@ PJRC Teensy 4.0 | Custom WS2812B Led Matrix
 
 | Effects Link          	| Preview                               	|
 |-----------------------	|----------------------------------------	|
-| Analogous1            	| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rqymJNo0EJ8/0.jpg)](https://www.youtube.com/watch?v=rqymJNo0EJ8) |
-| Aurora                	| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/uZel56K5H0k/0.jpg)](https://youtube.com/shorts/uZel56K5H0k?feature=share) |
+| Analogous1            	| [![](https://img.youtube.com/vi/rqymJNo0EJ8/0.jpg)](https://www.youtube.com/watch?v=rqymJNo0EJ8) |
+| Aurora                	| [![](https://img.youtube.com/vi/uZel56K5H0k/0.jpg)](https://youtube.com/shorts/uZel56K5H0k?feature=share) |
 | BlackAndWhite         	|                                        	|
-| BPM                     | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wpABKEyWJ7s/0.jpg)](https://www.youtube.com/watch?v=wpABKEyWJ7s) |
-| Calbayo15             	| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/eobqzGgs6K4/0.jpg)](https://youtube.com/shorts/eobqzGgs6K4?feature=share) |
-| Cloud                 	| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/uMpSQnTU4QM/0.jpg)](https://www.youtube.com/watch?v=uMpSQnTU4QM) |
-| CloudTwinkles           | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/6xIglZ9MYiI/0.jpg)](https://www.youtube.com/watch?v=6xIglZ9MYiI) |
-| ColorCube             	| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/w2WDJhO8YmA/0.jpg)](https://youtube.com/shorts/w2WDJhO8YmA?feature=share) |
-| ColorWaves            	| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lAgImssP0hc/0.jpg)](https://www.youtube.com/watch?v=lAgImssP0hc) |
-| Confetti                | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dexPh66PtdY/0.jpg)](https://youtube.com/shorts/dexPh66PtdY?feature=share) |
+| BPM                     | [![](https://img.youtube.com/vi/wpABKEyWJ7s/0.jpg)](https://www.youtube.com/watch?v=wpABKEyWJ7s) |
+| Calbayo15             	| [![](https://img.youtube.com/vi/eobqzGgs6K4/0.jpg)](https://youtube.com/shorts/eobqzGgs6K4?feature=share) |
+| Cloud                 	| [![](https://img.youtube.com/vi/uMpSQnTU4QM/0.jpg)](https://www.youtube.com/watch?v=uMpSQnTU4QM) |
+| CloudTwinkles           | [![](https://img.youtube.com/vi/6xIglZ9MYiI/0.jpg)](https://www.youtube.com/watch?v=6xIglZ9MYiI) |
+| ColorCube             	| [![](https://img.youtube.com/vi/w2WDJhO8YmA/0.jpg)](https://youtube.com/shorts/w2WDJhO8YmA?feature=share) |
+| ColorWaves            	| [![](https://img.youtube.com/vi/lAgImssP0hc/0.jpg)](https://www.youtube.com/watch?v=lAgImssP0hc) |
+| Confetti                | [![](https://img.youtube.com/vi/dexPh66PtdY/0.jpg)](https://youtube.com/shorts/dexPh66PtdY?feature=share) |
 | CoralReef             	|                                        	|
 | Curvature             	|                                        	|
 | DeepSea               	| [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/mDnaWVjDDiY/0.jpg)](https://www.youtube.com/watch?v=mDnaWVjDDiY) |
