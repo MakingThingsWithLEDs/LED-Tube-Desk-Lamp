@@ -1,7 +1,7 @@
 # DIY LED Effects Lamp Project
 PJRC Teensy 4.0 | Custom WS2812B Led Matrix 
 
-| Effects Name          	| Preview                               	|
+| Effects Name          	| Demo Link (Please Leave Me A Like)     	|
 |-----------------------	|----------------------------------------	|
 | Analogous1            	| [![](https://img.youtube.com/vi/rqymJNo0EJ8/0.jpg)](https://www.youtube.com/watch?v=rqymJNo0EJ8) |
 | Aurora                	| [![](https://img.youtube.com/vi/uZel56K5H0k/0.jpg)](https://youtube.com/shorts/uZel56K5H0k?feature=share) |
