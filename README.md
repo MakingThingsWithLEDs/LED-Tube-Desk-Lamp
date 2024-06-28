@@ -29,6 +29,7 @@ PJRC Teensy 4.0 | Custom WS2812B Led Matrix
 | FireOrange            	| [![](https://img.youtube.com/vi/Bq_BhgwoGyM/0.jpg)](https://www.youtube.com/watch?v=Bq_BhgwoGyM) |
 | FirePurple            	| [![](https://img.youtube.com/vi/7VXlMrUlCOM/0.jpg)](https://www.youtube.com/watch?v=7VXlMrUlCOM) |
 | FireRed               	| [![](https://img.youtube.com/vi/r67FtGZvrxc/0.jpg)](https://www.youtube.com/watch?v=r67FtGZvrxc) |
+| FireYellow              | [![](https://img.youtube.com/vi/-EyRCcPv-1g/0.jpg)](https://www.youtube.com/watch?v=-EyRCcPv-1g) |
 | FireWhite             	| [![](https://img.youtube.com/vi/Ep6ztWYFsqQ/0.jpg)](https://www.youtube.com/watch?v=Ep6ztWYFsqQ) |
 | Forest                	|                                        	|
 | HueCycle              	|                                        	|
@@ -56,6 +57,7 @@ PJRC Teensy 4.0 | Custom WS2812B Led Matrix
 | Temperature           	| [![](https://img.youtube.com/vi/7qriRYJ1oCw/0.jpg)](https://youtube.com/shorts/7qriRYJ1oCw?feature=share) |
 | Vintage49             	| [![](https://img.youtube.com/vi/BeOxCL2CW7A/0.jpg)](https://youtube.com/shorts/BeOxCL2CW7A?feature=share) |
 | Wave                  	|                                        	|
+
 
 ### Support
 **Project:** https://www.youtube.com/playlist?list=PLuTvWrqvrCQGxWSenKpJilgakO-iD05nO
