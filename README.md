@@ -1,4 +1,4 @@
-# LED Flames & Effects Lamp Project
+# DIY LED Effects Lamp Project
 PJRC Teensy 4.0 | Custom WS2812B Led Matrix 
 
 | Effects Link          	| Preview                               	|
