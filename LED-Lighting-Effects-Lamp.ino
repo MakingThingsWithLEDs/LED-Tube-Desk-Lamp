@@ -45,6 +45,11 @@ const uint8_t MATRIX_HEIGHT = 29;                  // Edit this to your matrix h
 #define BUTTON_2_PIN 17
 #define BRIGHTNESS 64
 
+// Used to reset board
+#define CPU_RESTART_ADDR (uint32_t *)0xE000ED0C
+#define CPU_RESTART_VAL 0x5FA0004
+#define CPU_RESTART (*CPU_RESTART_ADDR = CPU_RESTART_VAL);
+
 // Param for different pixel layouts
 const bool    kMatrixSerpentineLayout = true;
 const bool    kMatrixVertical = false;
@@ -538,7 +543,7 @@ void cyclePalette(int delta = 1) {
   palette = palettes[currentPaletteIndex];
 }
 
-unsigned long button1PressTimeStamp;
+elapsedMillis  button1PressTimeStamp;
 unsigned long button2PressTimeStamp;
 
 void handleInput(unsigned int requestedDelay) {
@@ -551,7 +556,7 @@ void handleInput(unsigned int requestedDelay) {
 
     if (button1.fell()) {
       Serial.println("Button 1 depressed");
-      button1PressTimeStamp = millis();
+      button1PressTimeStamp = 0;
     }
 
     if (button2.fell()) {
@@ -559,9 +564,16 @@ void handleInput(unsigned int requestedDelay) {
       button2PressTimeStamp = millis();
     }
 
+    // Short press: change pattern
+    // Long 5+ second press: reset board
     if (button1.rose()) {
       Serial.println("Button 1 released");
-      move(1);
+      if (button1PressTimeStamp >= 5000) {
+        CPU_RESTART; // restart CPU
+      } else {
+        move(1);
+      }
+      
     }
 
     if (button2.rose()) {
