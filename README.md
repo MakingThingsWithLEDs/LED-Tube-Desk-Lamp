@@ -4,7 +4,7 @@ PJRC Teensy 4.0 | Custom WS2812B Led Matrix
 | Effects Name          	| Demo Link (Please Leave Me A Like)     	|
 |-----------------------	|----------------------------------------	|
 | Analogous1            	| [![](https://img.youtube.com/vi/rqymJNo0EJ8/0.jpg)](https://www.youtube.com/watch?v=rqymJNo0EJ8) |
-| Aurora                	| [![](https://img.youtube.com/vi/uZel56K5H0k/0.jpg)](https://youtube.com/shorts/uZel56K5H0k?feature=share) |
+| Aurora                	| [![](https://img.youtube.com/vi/vvYfKpWnZEc/0.jpg)](https://youtube.com/shorts/vvYfKpWnZEc?feature=share) |
 | BlackAndWhite         	|                                        	|
 | BPM                     | [![](https://img.youtube.com/vi/wpABKEyWJ7s/0.jpg)](https://www.youtube.com/watch?v=wpABKEyWJ7s) |
 | Calbayo15             	| [![](https://img.youtube.com/vi/eobqzGgs6K4/0.jpg)](https://youtube.com/shorts/eobqzGgs6K4?feature=share) |
@@ -47,7 +47,7 @@ PJRC Teensy 4.0 | Custom WS2812B Led Matrix
 | RainbowTwinkles       	|                                        	|
 | RainbowWithGlitter    	|                                        	|
 | RampRGB               	| [![](https://img.youtube.com/vi/fwO2FN8sbOQ/0.jpg)](https://youtube.com/shorts/fwO2FN8sbOQ?feature=share) |
-| Rstcurv               	| [![](https://img.youtube.com/vi/1txU8OBw5TM/0.jpg)](https://www.youtube.com/watch?v=1txU8OBw5TM) |
+| Rstcurv               	| [![](https://img.youtube.com/vi/_P6XzHIV-NA/0.jpg)](https://www.youtube.com/watch?v=_P6XzHIV-NA) |
 | Shikon22              	| [![](https://img.youtube.com/vi/C9LezPTnGYY/0.jpg)](https://youtube.com/shorts/C9LezPTnGYY?feature=share) |
 | Shikon23              	| [![](https://img.youtube.com/vi/3hxHBaMBJYs/0.jpg)](https://youtube.com/shorts/3hxHBaMBJYs?feature=share) |
 | ShowSolidColor        	|                                        	|
