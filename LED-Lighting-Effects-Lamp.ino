@@ -149,12 +149,14 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 #include "FireRainbow.h"
 #include "FirePurple.h"
 #include "FireOrange.h"
+#include "Pacifica.h"
 // #include "AudioLogic.h"
 // #include "AudioPatterns.h"
 
 //===================================================================================================================================================START EFFECT PLAYLIST
 const PatternList patterns = {
  //  EFFECTS LISTS                   // In automatic mode will display in order of the list. Remove or add // to enable/disable effects
+  Pacifica,
   Analogous,
   Aurora,
   BPM,
