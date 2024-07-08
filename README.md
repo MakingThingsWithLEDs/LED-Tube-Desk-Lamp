@@ -41,7 +41,7 @@ PJRC Teensy 4.0 | Custom WS2812B Led Matrix
 | Ocean                 	|                                        	|
 | OceanBreeze           	|                                        	|
 | Party                 	| [![](https://img.youtube.com/vi/PT6lvMPc_JI/0.jpg)](https://www.youtube.com/watch?v=PT6lvMPc_JI) |
-| Pride                 	| [![](https://img.youtube.com/vi/uN1UlFU359A/0.jpg)](https://www.youtube.com/watch?v=uN1UlFU359A) |
+| Pride                 	| [![](https://img.youtube.com/vi/QllpjAun5tk/0.jpg)](https://youtube.com/shorts/QllpjAun5tk?feature=share) |
 | Pulse                 	|                                        	|
 | Rainbow               	| [![](https://img.youtube.com/vi/G2VRK3VtvZA/0.jpg)](https://youtube.com/shorts/G2VRK3VtvZA?feature=share) |
 | RainbowTwinkles       	|                                        	|
