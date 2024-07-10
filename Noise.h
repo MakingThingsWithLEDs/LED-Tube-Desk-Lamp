@@ -224,7 +224,7 @@ uint16_t Forest() {
 }
 //===============================================
 uint16_t Cloud() {
-  noisespeedx = 9;
+  noisespeedx = 5;
   noisespeedy = 0;
   noisespeedz = 0;
   noisescale = 30;
