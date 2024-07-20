@@ -35,7 +35,7 @@
 // #define MATRIX_WIDTH  6
 const uint8_t MATRIX_WIDTH = 6;                    // Edit this to your matrix width
 const uint8_t MATRIX_HEIGHT = 29;                  // Edit this to your matrix height
-#define LED_PIN     11                             // Edit this to your required pin number TEENSY Pin 10 or 11 | ESP32 Pin 0
+#define LED_PIN     10                            // Edit this to your required pin number TEENSY Pin 10 or 11 | ESP32 Pin 0
 #define IR_RECV_PIN 12                             // Pin for use with an IR remote control
 #define COLOR_ORDER GRB                            // LED order Green, Red, Blue as default
 #define CHIPSET     1, WS2812B                     // LED Chipset if using teensy 4.0 or above add 1, if below or using ESP32 remove 1,
@@ -75,20 +75,16 @@ uint16_t Sinelon();
 
 const int MATRIX_CENTER_X = MATRIX_WIDTH / 2;
 const int MATRIX_CENTER_Y = MATRIX_HEIGHT / 2;
-
 const byte MATRIX_CENTRE_X = MATRIX_CENTER_X - 1;
 const byte MATRIX_CENTRE_Y = MATRIX_CENTER_Y - 1;
-
 const uint8_t brightnessCount = 5;
 uint8_t brightnessMap[brightnessCount] = { 16, 32, 64, 128, 255 };
 uint8_t brightness = brightnessMap[0];
 
 CRGB leds[NUM_LEDS + 1];
 
-
 Bounce button1 = Bounce();
 Bounce button2 = Bounce();
-
 
 #include "GradientPalettes.h"
 
@@ -98,11 +94,9 @@ typedef uint16_t(*PatternFunctionPointer)();
 typedef PatternFunctionPointer PatternList [];
 #define ARRAY_SIZE(A) (sizeof(A) / sizeof((A)[0]))
 
-int autoPlayDurationSeconds = 60;                                     // Set automatic play time per effect adjust as required
+int autoPlayDurationSeconds = 10;                                     // Set automatic play time per effect adjust as required
 unsigned int autoPlayTimeout = 10;
-bool autoplayEnabled = false;                                          // Disable / Enable automatic play function, use false if you wish to use momentary switch to control effects.
-
-
+bool autoplayEnabled = true;                                          // Disable / Enable automatic play function, use false if you wish to use momentary switch to control effects.
 
 int currentPatternIndex = 19;
 PatternFunctionPointer currentPattern;
@@ -143,6 +137,7 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 #include "FireRed.h"
 #include "FireYellow.h"
 #include "FireGreen.h"
+#include "FireIndigo.h"
 #include "FireBlue.h"
 #include "FireElectricBlue.h"
 #include "FireChemical.h"
@@ -156,56 +151,57 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 //===================================================================================================================================================START EFFECT PLAYLIST
 const PatternList patterns = {
  //  EFFECTS LISTS                   // In automatic mode will display in order of the list. Remove or add // to enable/disable effects
-  Pacifica,
-  Analogous,
-  Aurora,
-  BPM,
-  Calbayo15,
-  Cloud,
-  CloudTwinkles,
-  ColorCube,
-  ColorWaves,
-  Confetti,
-  CoralReef,
-  Curvature,
-  DeepSea,
-  Fire2012Rainbow,
-  Fire2012WithPalette,
-  FireAqua,
-  FireBarbiePink,
-  FireBlue,
-  FireChemical,
-  FireElectricBlue,
-  Fireflies,
+  // Pacifica,
+  // Analogous,
+  // Aurora,
+  // BPM,
+  // Calbayo15,
+  // Cloud,
+  // CloudTwinkles,
+  // ColorCube,
+  // ColorWaves,
+  // Confetti,
+  // CoralReef,
+  // Curvature,
+  // DeepSea,
+  // Fire2012Rainbow,
+  // Fire2012WithPalette,
+  // FireAqua,
+  // FireBarbiePink,
+  // FireBlue,
+  // FireChemical,
+  // FireElectricBlue,
+  // Fireflies,
   FireGreen,
-  FireNoise,
-  FireOrange,
-  FirePurple,
-  FireRed,
-  FireYellow,
-  FireWhite,
-  HueCycle,
-  IncandescentTwinkles,
-  Juggle,
-  Lava,
-  LavaLampRainbow,
-  LavaLampRainbowStripe,
-  Ocean,
-  OceanBreeze,
-  Party,
-  Pride,
-  Rainbow,
-  RainbowTwinkles,
-  RainbowWithGlitter,
-  RampRGB,
-  Rstcurv,
-  Shikon22,
-  Shikon23,
-  Sinelon,
-  SnowTwinkles,
-  Spectrum,
-  Temperature,
-  Vintage49,
+  FireIndigo,
+  // FireNoise,
+  // FireOrange,
+  // FirePurple,
+  // FireRed,
+  // FireYellow,
+  // FireWhite,
+  // HueCycle,
+  // IncandescentTwinkles,
+  // Juggle,
+  // Lava,
+  // LavaLampRainbow,
+  // LavaLampRainbowStripe,
+  // Ocean,
+  // OceanBreeze,
+  // Party,
+  // Pride,
+  // Rainbow,
+  // RainbowTwinkles,
+  // RainbowWithGlitter,
+  // RampRGB,
+  // Rstcurv,
+  // Shikon22,
+  // Shikon23,
+  // Sinelon,
+  // SnowTwinkles,
+  // Spectrum,
+  // Temperature,
+  // Vintage49,
 
  //  OTHER EFFECTS
  //  ShowSolidColor
