@@ -3,7 +3,7 @@ PJRC Teensy 4.0 | Custom WS2812B Led Matrix
 
 | Effects Name          	| Demo Link (Please Leave Me A Like)     	|
 |-----------------------	|----------------------------------------	|
-| Analogous             	| [![](https://img.youtube.com/vi/uoKGemzSJmM/0.jpg)](https://youtube.com/shorts/uoKGemzSJmM?feature=share) |
+| Analogous             	| [![](https://img.youtube.com/vi/DqDVUVYtLdk/0.jpg)](https://youtu.be/DqDVUVYtLdk) |
 | Aurora                	| [![](https://img.youtube.com/vi/vvYfKpWnZEc/0.jpg)](https://youtube.com/shorts/vvYfKpWnZEc?feature=share) |
 | BlackAndWhite         	|                                        	|
 | BPM                     | [![](https://img.youtube.com/vi/wpABKEyWJ7s/0.jpg)](https://www.youtube.com/watch?v=wpABKEyWJ7s) |
@@ -25,6 +25,7 @@ PJRC Teensy 4.0 | Custom WS2812B Led Matrix
 | FireElectricBlue      	| [![](https://img.youtube.com/vi/nL_Dz0n3Nng/0.jpg)](https://www.youtube.com/watch?v=nL_Dz0n3Nng) |
 | Fireflies             	|                                        	|
 | FireGreen             	| [![](https://img.youtube.com/vi/psM2U7L5JMU/0.jpg)](https://www.youtube.com/watch?v=psM2U7L5JMU) |
+| FireIndigo             	| [![](https://img.youtube.com/vi/ssplT7uFegI/0.jpg)](https://youtu.be/ssplT7uFegI) |
 | FireNoise               | [![](https://img.youtube.com/vi/8HZHj-oy8hU/0.jpg)](https://www.youtube.com/watch?v=8HZHj-oy8hU) |
 | FireOrange            	| [![](https://img.youtube.com/vi/Bq_BhgwoGyM/0.jpg)](https://www.youtube.com/watch?v=Bq_BhgwoGyM) |
 | FirePurple            	| [![](https://img.youtube.com/vi/7VXlMrUlCOM/0.jpg)](https://www.youtube.com/watch?v=7VXlMrUlCOM) |
