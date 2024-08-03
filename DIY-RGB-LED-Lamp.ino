@@ -741,7 +741,7 @@ uint16_t Pride()
     nblend(leds[pixelnumber], newcolor, 64);
   }
 
-  return 0;
+  return 20;
 }
 
 ///////////////////////////////////////////////////////////////////////
